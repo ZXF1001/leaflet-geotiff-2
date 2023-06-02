@@ -61,7 +61,7 @@
         clampHigh: true,
         useWebGL: this.options.useWebGL
       });
-      dataUrl = plot.colorScaleCanvas.toDataURL();
+      var dataUrl = plot.colorScaleCanvas.toDataURL();
       canvas.remove();
       return dataUrl;
     },
